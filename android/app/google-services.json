@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "67248630219",
+    "project_id": "ifeirastorage",
+    "storage_bucket": "ifeirastorage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67248630219:android:0c7afa18ba338a2848ae4e",
+        "android_client_info": {
+          "package_name": "com.example.ifeira_app_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67248630219-1tc907gosgc9cr1kiggukeqtqj6dn6gv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTSXE4ddMB53tTjRPvzde1tP3dSbmzZy4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67248630219-1tc907gosgc9cr1kiggukeqtqj6dn6gv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
