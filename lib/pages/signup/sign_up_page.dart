@@ -4,7 +4,6 @@ import 'package:ifeira_app_1/pages/signup/sign_up_service.dart';
 import 'package:ifeira_app_1/shared/constants/custom_colors.dart';
 import 'package:ifeira_app_1/shared/constants/preferences_keys.dart';
 import 'package:ifeira_app_1/shared/models/login_model.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 class SignUpPage extends StatefulWidget {
   @override
@@ -242,11 +241,11 @@ class _SignUpPageState extends State<SignUpPage> {
   }
 
   // ignore: unused_element
-  void _saveUser(LoginModel user) async {
+  /*void _saveUser(LoginModel user) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     prefs.setString(
       PreferencesKeys.activeUser,
       json.encode(user.toJson()),
     );
-  }
+  }*/  
 }
