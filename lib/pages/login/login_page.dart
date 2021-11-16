@@ -214,25 +214,4 @@ class _LoginPageState extends State<LoginPage> {
       print("invalido");
     }
   }
-
-  // Future<LoginModel> _getSavedUser() async {
-  //   SharedPreferences prefs = await SharedPreferences.getInstance();
-  //   String jsonUser = prefs.getString(PreferencesKeys.activeUser);
-  //   print(jsonUser);
-
-  //   Map<String, dynamic> mapUser = json.decode(jsonUser);
-  //   LoginModel user = LoginModel.fromJson(mapUser);
-  //   return user;
-  // }
 }
-
-// WIDGETS
-// BoxDecoration
-// LinearGradient
-// MediaQuery.of(context).size.width
-// SingleChildScrollView
-// Column
-// Form
-// TextFormField
-// InputDecoration
-// GestureDectector
